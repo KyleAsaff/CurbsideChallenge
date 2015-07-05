@@ -21,7 +21,7 @@ public class CurbsideChallenge {
 	private final String USER_AGENT = "Mozilla/5.0";
 	
     /**
-     * Prints the final message after finding all secrets
+     * Prints the final "decoded" message after finding all secrets
      * 
      * @throws IOException
      */
