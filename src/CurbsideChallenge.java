@@ -162,7 +162,7 @@ public class CurbsideChallenge {
 		// If JSON Object has secret, add to list
 		if (obj.has("secret")) {
 			list.add(obj.getString("secret"));
-			// If there is a "next" key, loop through all IDs
+		// If there is a "next" key, loop through all IDs
 		} else if (obj.has("next")) {
 			JSONArray arr = obj.optJSONArray("next");
 			if (arr == null) {
