@@ -154,7 +154,7 @@ public class CurbsideChallenge {
 		while ((line = rd.readLine()) != null) {
 			result.append(line);
 		}
-		String res = result.toString();
+		String res = result.toString().toLowerCase();
 
 		// Convert GET request String to a JSONObject
 		JSONObject obj = new JSONObject(res);
@@ -173,17 +173,5 @@ public class CurbsideChallenge {
 				}
 			}
 		}
-		// If there is a "nExt" key, loop through all IDs
-		else if (obj.has("nExt")) {
-			JSONArray arr = obj.optJSONArray("nExt");
-			if (arr == null) {
-				recursiveID(obj.getString("nExt"), list);
-			} else {
-				for (int i = 0; i < arr.length(); i++) {
-					recursiveID(arr.getString(i), list);
-				}
-			}
-		}
 	}
-
 }
