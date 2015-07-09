@@ -17,7 +17,7 @@ import org.json.*;
 
 public class CurbsideChallenge {
 	
-	// Default USER_AGENT
+	// Default USER_AGENT for GET request
 	private final String USER_AGENT = "Mozilla/5.0";
 	
     /**
