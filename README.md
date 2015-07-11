@@ -6,4 +6,4 @@ Solves the http://challenge.shopcurbside.com/ programming challenge
 This algorithm traverses through the tree-like structure recursively and returns the characters at each leaf node returning the "decoded" string for the Curbside Coding Challnge
 
 # How to Run
-Compile and run CurbsideChallenge.java.
+Compile and run CurbsideChallenge.java
