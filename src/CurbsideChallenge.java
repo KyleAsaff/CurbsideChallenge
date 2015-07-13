@@ -1,10 +1,10 @@
-/*************************************************
+/************************************************
  *
  *  CurbsideChallenge.java
  *  Author: Kyle Asaff
  *  Description: Solves the Curbside Challenge
  *
- *************************************************/
+ ************************************************/
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
